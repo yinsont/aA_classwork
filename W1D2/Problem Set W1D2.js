@@ -66,14 +66,18 @@ function whisper(nString) {
 // isSubstring("Jump for joy", "joys"); // => false
 //
 function isSubstring(searchString, subString) {
-  console.log(searchString.indexOf(subString));
+  return searchString.indexOf(subString) > -1
+  /*
   if (isSubstring >= 0){
     return ('true')
   }else{
     return ('false')
   }
+  */
   //console.log('hello'.indexOf('h'));
    // if subString in searchStrirng, result true
 }
+
+//return is already giving a true/false or if/else/then statement
 
 console.log(isSubstring('I love food', 'food'))

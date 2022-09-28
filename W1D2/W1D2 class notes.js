@@ -61,10 +61,9 @@ function average2(num1,num2){
     return avg;
 }
 function sumNums(num1,num2){
-    return num1 /+ num2;
+    return num1 + num2;
 }
 //making a function that uses another function to help it do the same as the first 
 //return a function to finish
 
-
-console.log(average(12,8))//edit purple () as needed, will be sent to the first function
+console.log(average2(12,8))//edit purple () as needed, will be sent to the first function

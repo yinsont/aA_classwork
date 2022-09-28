@@ -17,10 +17,12 @@ function isOdd(num) {
 
   console.log(isOdd(3));
 
+/*
 function isOdd2(num){
     let ans = num%2
 }
 console.log(isOdd2(3))
+*/
 
 //--------------------------------------------------------------------------------------------------------------------
 
@@ -64,5 +66,14 @@ function whisper(nString) {
 // isSubstring("Jump for joy", "joys"); // => false
 //
 function isSubstring(searchString, subString) {
-   // if subString in searchStrirng, result true
+  console.log(searchString.indexOf(subString));
+  if (isSubstring >= 0){
+    return ('true')
+  }else{
+    return ('false')
   }
+  //console.log('hello'.indexOf('h'));
+   // if subString in searchStrirng, result true
+}
+
+console.log(isSubstring('I love food', 'food'))

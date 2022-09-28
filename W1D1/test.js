@@ -30,10 +30,10 @@ console.log('race' + 'car');
 
 console.log(4 + "hi");
 console.log(4 * "10");
-console.log(4 + '10');
+console.log(4 + '10'); 
 
-console.log('hello'.toUpperCase());
-console.log('HELLO'.toLowerCase());
+console.log('hello'.toUpperCase()); //turn text uppdercase
+console.log('HELLO'.toLowerCase()); //turn text undercase
 
 console.log('hello'.slice());
 console.log('hello'.slice(1));
@@ -61,7 +61,7 @@ if (20 === 20){
     console.log('they are not equal');
 }
 
-
+/*
 // === checks type and value, == only checks value
 let num = 20.5
 if(num === 20){
@@ -78,3 +78,4 @@ if (0){
 }else{
     console.log(true);
 }
+*/

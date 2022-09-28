@@ -20,6 +20,7 @@ if(num = 30){
 function foo(){
     return 'bar';
 }
+
 console.log(foo())
 console.log(foo)
 
@@ -30,4 +31,40 @@ function foo(p1,p2){
     return p1 + ' ' + p2;
 }
 
-console.log(foo('Yinson','tso'));
+console.log(foo('Yinson','Tso'));
+
+//function - a procedure of code that will run when called
+
+/*
+let foo = function(){
+    return'bar';
+}
+let foo = () =>{
+    return 'bar';
+}
+
+showing different ways to write functions
+*/
+
+
+
+function average (num1,num2){
+    let sum = num1 + num2;
+    let avg = sum/2;
+    return avg;
+}
+//making a function that gives us the average of 2 numbers
+
+function average2(num1,num2){
+    let sum = sumNums(num1,num2)
+    let avg = sum/2;
+    return avg;
+}
+function sumNums(num1,num2){
+    return num1 /+ num2;
+}
+//making a function that uses another function to help it do the same as the first 
+//return a function to finish
+
+
+console.log(average(12,8))//edit purple () as needed, will be sent to the first function

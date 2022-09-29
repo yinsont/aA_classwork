@@ -53,7 +53,7 @@ skipFive(20);
 //continue tells program to skip console.log(i) so it doesn't print 5
 
 function breakAtFive(num){
-  for (let i =1; i <= num; i++){
+  for (let i = 1; i <= num; i++){
     if (num ===5){
       break;
     }
@@ -62,3 +62,16 @@ function breakAtFive(num){
   console.log('after the loop')
 }
 breakAtFive(20)
+/*
+function isPrime(num){
+    for (let i = 1; i <= num; i++){
+      if (num < 2){
+        break;
+        console.log('number is below 2')
+      }
+      
+    }
+}
+*/
+
+

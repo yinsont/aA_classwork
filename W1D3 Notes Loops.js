@@ -29,7 +29,36 @@ function printRange1(start,end){
   let i= start;
   while(i <= end){
     console.log(i);
-    i ++;
+    i ++; // ++ means +1
   }
 }
 printRange1(7,21);
+
+//let i = 20
+//while (i === 20){
+//  console.log(i);
+//}
+//infinite loop cause i never changes from 20
+
+function skipFive(num){
+  for(let i = 1; i <= num; i++){
+    if (i === 5){
+      continue 
+    }
+    console.log(i);
+  }
+}
+skipFive(20);
+
+//continue tells program to skip console.log(i) so it doesn't print 5
+
+function breakAtFive(num){
+  for (let i =1; i <= num; i++){
+    if (num ===5){
+      break;
+    }
+    console.log(i);
+  }
+  console.log('after the loop')
+}
+breakAtFive(20)

@@ -10,7 +10,8 @@ range(4,2) => []
 
 function range(start, end) {
   let arrRange = [];
-  for (i = start; i <= end; i ++){ //find a way to get this loop working
+  for (i = start; i <= end; i++) {
+    //find a way to get this loop working
     //console.log (i);
     arrRange.push(i);
   }

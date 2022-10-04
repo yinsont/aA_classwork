@@ -11,17 +11,17 @@ reverseSentence("Jump, jump for joy") => "joy for jump Jump,"
 function reverseSentence(sentence) {
   // your code here...
 
-  let arr = sentence.split(' ')  //converts sentence to array
+  let arr = sentence.split(" "); //converts sentence to array
   let newArr = []; //make new array w/ nothing
-  for (let i = 0; i < arr.length; i++){ //cycle through each index
+  for (let i = 0; i < arr.length; i++) {
+    //cycle through each index
     //console.log(arr[i])
     newArr.unshift(arr[i]); //bring back but from the front in new array
   }
-  return newArr.join(' ') //returns final new array into string
+  return newArr.join(" "); //returns final new array into string
 }
-  
 
-reverseSentence('Please reverse this sentence')
+reverseSentence("Please reverse this sentence");
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = reverseSentence;

@@ -75,5 +75,3 @@ function isPrime(num){
     }
 }
 */
-
-

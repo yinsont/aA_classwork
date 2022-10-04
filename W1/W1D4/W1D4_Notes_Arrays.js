@@ -78,11 +78,11 @@ console.log(string.split(' ')); //converts string into array
  console.log(numbers.join("_______")); //converts array into string
 
 //------------------------------------------------------------------------------------------------
-for(let i = 0; i < numbers.length; i++){
+for(let i = 0; i < numbers.length; i++){    //counts numbers 1-8 (from line 60)
     let ele = numbers [i];
     console.log(ele);
 }
-for (let i = numbers.length -1; i >=0; i--){
+for (let i = numbers.length -1; i >=0; i--){  // 8 -> 1
     let ele =numbers[i];
     console.log(ele);
 }

@@ -72,12 +72,16 @@ function getHighestCoordinateOnAPlane(plane) {
   let currentBiggestIndex = [0, 0];
 
   for (let i = 0; i < plane.length; i++) {
+    //checkk verticle
     let subArray = plane[i];
 
     for (let j = 0; j < subArray.length; j++) {
+      //check hortizontal
+
       if (subArray[j] > biggest) {
+        //if found new bigger index, then replace
         biggest = subArray[j];
-        currentBiggestIndex = [i, j];
+        currentBiggestIndex = [i, j]; //state what highest index is
       }
     }
   }

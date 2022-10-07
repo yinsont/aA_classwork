@@ -16,7 +16,7 @@
 //-------------------------------------------------------------------------------------------------------------------------
 
 let students = ["kevin", "jesse", "jason", "simon"];
-
+//pair students with each other, making nobody pair again w/ same people
 function pairStudents(arr) {
   for (let i = 0; i < arr.length; i++) {
     let student = arr[i];

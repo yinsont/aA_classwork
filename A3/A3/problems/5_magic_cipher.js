@@ -14,13 +14,13 @@ magicCipher("twmce" , { m : "n", t : "d", w : "a"}) => "dance"
 function magicCipher(sentence, cipher) {
   // your code here...
   let newSen = ""; //new sentence
-  console.log(sentence);
-  console.log(cipher);
+  // console.log(sentence);
+  // console.log(cipher);
   for (let i = 0; i < sentence.length; i++) {
     //loop  through old sentence
     let char = sentence[i]; //let character equal letter in old sentence
-    console.log(`char = ${char}`);
-    console.log(cipher[char]);
+    // console.log(`char = ${char}`);
+    // console.log(cipher[char]);
     if (char in cipher) {
       //if character in old sentence is in the cihper
       newSen += cipher[char]; //place new character from cipher in new sentence

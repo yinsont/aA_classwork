@@ -24,7 +24,7 @@ function dynamicFizzBuzz(max, num1, num2) {
   return newArray;
 }
 
-console.log(dynamicFizzBuzz(20, 5, 3));
+// console.log(dynamicFizzBuzz(20, 5, 3));
 console.log(dynamicFizzBuzz(20, 4, 6));
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
 module.exports = dynamicFizzBuzz;

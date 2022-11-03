@@ -1,2 +1,7 @@
-    let arr = array1 + array2
-    return arr
+function isSubstring(searchString, subString) {
+//     if (searchString.indexOf(subString) > 0){
+//         return true
+//     } else {
+//         return false
+//     }
+// }

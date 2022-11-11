@@ -2,7 +2,6 @@ function mostVowels(sentence) {
   let newSentence = sentence.split(" ");
   let answer = ''
   for (let i = 0; i < newSentence.length; i++) {
-    console.log(i)
     if (vowelCounter(newSentence[i]) > vowelCounter(answer)) {
       answer = newSentence[i];
     }

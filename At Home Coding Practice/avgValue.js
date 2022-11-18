@@ -1,5 +1,5 @@
 function avgVal(arr){
-    if (arr.length = 0) return null
+    if (arr.length === 0) return null
     let answer = 0
     for (let i = 0; i < arr.length; i++){
         answer += arr[i]

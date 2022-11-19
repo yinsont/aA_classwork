@@ -6,7 +6,8 @@ function reverb(str){
     } else {
         ans += str
         for (let i = str.length -1; i > 0; i--){
-
+            let vowels = 'aeiou'
+            ans += str[i]
         }
     }
 }

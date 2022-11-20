@@ -8,6 +8,7 @@ function reverb(str){
         for (let i = str.length -1; i > 0; i--){
             let vowels = 'aeiou'
             ans += str[i]
+            //starting from end, go left till see a vowel, if sees a vowel, take vowel and all that is on the right of it and paste it into ans
         }
     }
 }

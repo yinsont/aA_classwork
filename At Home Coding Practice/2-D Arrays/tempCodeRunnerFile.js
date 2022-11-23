@@ -1,0 +1,1 @@
+um += subArr[j]

@@ -27,6 +27,7 @@ function maxColumn(matrix) {
           column3 = num;
         }
       }
+      //different variant
       //   if ((j = 0)) {
       //     if (num > column1) {
       //       column1 = num;

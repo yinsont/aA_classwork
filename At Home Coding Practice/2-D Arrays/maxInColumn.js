@@ -28,10 +28,8 @@ function maxColumn(matrix) {
         }
       }
     }
-    // subArray[matrix[i]]
-    // console.log(subArray)
   }
   return ans;
 }
-
+//*maybe just change/loop i, no need to make second loop?
 console.log(maxColumn(matrix)); // [12, 19, 21]

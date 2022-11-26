@@ -14,9 +14,9 @@ function maxColumn(matrix) {
     //row
     let subArray = matrix[i];
     for (let j = 0; j < subArray.length; j++) {
-      //column
-      let num = subArray[j];
-      if (num > matrix[i - 1][j]) {
+      //column?
+      let num = subArray[j]; //this works
+      if (num > matrix[i - 1][j]) { //must fix
         if ((j = 0)) {
           column1 = num;
         }
@@ -27,22 +27,6 @@ function maxColumn(matrix) {
           column3 = num;
         }
       }
-      //different variant
-      //   if ((j = 0)) {
-      //     if (num > column1) {
-      //       column1 = num;
-      //     }
-      //   }
-      //   if ((j = 1)) {
-      //     if (num > column2) {
-      //       column2 = num;
-      //     }
-      //   }
-      //   if ((j = 2)) {
-      //     if (num > column3) {
-      //       column3 = num;
-      //     }
-      //   }
     }
     // subArray[matrix[i]]
     // console.log(subArray)

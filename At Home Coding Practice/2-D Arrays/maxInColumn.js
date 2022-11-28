@@ -16,7 +16,8 @@ function maxColumn(matrix) {
     for (let j = 0; j < subArray.length; j++) {
       //column?
       let num = subArray[j]; //this works
-      if (num > matrix[i - 1][j]) { //must fix
+      if (num > matrix[i - 1][j]) {
+        //must fix
         if ((j = 0)) {
           column1 = num;
         }

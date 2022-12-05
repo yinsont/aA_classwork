@@ -1,13 +1,13 @@
 let testObject = {};
 
-console.log(testObject) //empty
+console.log(testObject); //empty
 
-testObject['num'] = 10
+testObject["num"] = 10;
 
-console.log(testObject) //puts in key 'num' and gave it value 10
+console.log(testObject); //puts in key 'num' and gave it value 10
 
-testObject.num2 = 20 //easier way to add key/value
+testObject.num2 = 20; //easier way to add key/value
 
-console.log(testObject) 
+console.log(testObject);
 
 //bracket notation allos use of variables for keys

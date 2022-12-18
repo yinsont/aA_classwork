@@ -1,20 +1,19 @@
-let ans = []
 function pyramidSum(base) {
-    ans.push(base)
-    if (base.length === 1){
-        return ans
+  let arr = [base];
+
+  for (let i = 0; i < base.length - 1; i++) {
+    let layerOne = arr[0];
+    let nextStack = [];
+
+    for (let e = 0; e < layerOne.length - 1; e++) {
+      let ichi = layerOne[e];
+      let ni = layerOne[e + 1];
+      nextStack.push(ichi + ni);
     }
-    let subAns = []
-    let sum = 0;
-    for (let i = 0; i < base.length; i++){
-        let num1 = base[i]
-        for (let j = i+1; j < base.length; j++){
-            let num2 = base[j]
-            sum = (num1 + num2)
-            subAns.push(sum)
-        }
-    }
-     return pyramidSum(subAns)
+    arr.unshift(nextStack);
+  }
+
+  return arr;
 }
 
 console.log(pyramidSum([1, 4, 6])); // [[15], [5, 10], [1, 4, 6]]

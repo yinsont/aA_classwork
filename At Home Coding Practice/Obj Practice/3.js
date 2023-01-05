@@ -3,6 +3,7 @@ function lastIndex(str, char) {
       if (str[i].includes(char)){
         return i
     }
+  }
 }
 
 console.log(lastIndex("abca", "a"))        // 3

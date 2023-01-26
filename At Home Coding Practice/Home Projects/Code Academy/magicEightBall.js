@@ -1,6 +1,6 @@
 // console.log(Math.random())
 
-// switch case break default
+// switch case break default (instead of if, else if, else)
 // var = var || statement
 // condition ? action :(or) action (true/false only)
 

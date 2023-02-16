@@ -4,7 +4,7 @@ function twoSum(nums,target){
         for (let j = i+1; j < nums.length; j++){
             let num2 = nums[j]
             if (num1 + num2 === target){
-                return [num1,num2]
+                return [i,j]
             }
         }
     }
